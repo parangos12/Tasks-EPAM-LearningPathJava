@@ -1,0 +1,572 @@
+
+12:00:41.052 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+12:00:41.061 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'traineesLoader' defined in file [C:\Users\Pedro\Desktop\Programacion\SPRING-FRAMEWORK\SpringFrameworWorkSpace\spring-core-task\target\classes\com\epam\springcore\repository\TraineesLoader.class]: Failed to instantiate [com.epam.springcore.repository.TraineesLoader]: Constructor threw exception
+12:02:20.729 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+12:02:20.741 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'traineesLoader' defined in file [C:\Users\Pedro\Desktop\Programacion\SPRING-FRAMEWORK\SpringFrameworWorkSpace\spring-core-task\target\classes\com\epam\springcore\repository\TraineesLoader.class]: Failed to instantiate [com.epam.springcore.repository.TraineesLoader]: Constructor threw exception
+12:05:06.207 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+12:05:06.218 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'traineesLoader' defined in file [C:\Users\Pedro\Desktop\Programacion\SPRING-FRAMEWORK\SpringFrameworWorkSpace\spring-core-task\target\classes\com\epam\springcore\repository\TraineesLoader.class]: Failed to instantiate [com.epam.springcore.repository.TraineesLoader]: Constructor threw exception
+12:06:54.048 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+12:06:54.108 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'trainerLoader' defined in file [C:\Users\Pedro\Desktop\Programacion\SPRING-FRAMEWORK\SpringFrameworWorkSpace\spring-core-task\target\classes\com\epam\springcore\repository\TrainerLoader.class]: Failed to instantiate [com.epam.springcore.repository.TrainerLoader]: Constructor threw exception
+12:07:32.378 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+12:07:32.463 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Trainees mock data initialized
+12:07:32.465 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Trainers mock data initialized
+12:07:32.467 [main] INFO  c.e.s.s.TrainingServiceImpl - Trainers mock data initialized
+12:07:32.477 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=1, dateOfBirth=Optional[Fri Nov 03 12:07:32 COT 2023], address=Optional[123 Main St], user=null)
+12:07:32.496 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Created Trainer: Trainer(id=1, specialization=2, user=null)
+12:07:32.496 [main] INFO  c.e.s.s.TrainingServiceImpl - Created Trainer: Training(id=1, traineeID=1, trainerID=1, trainingName=Spring Boot Training, trainingTypeID=1, trainingDate=Fri Nov 03 12:07:32 COT 2023, trainingDuration=3.5)
+12:07:32.497 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Updated Trainee: Trainee(id=1, dateOfBirth=Optional[Fri Nov 03 12:07:32 COT 2023], address=Optional[123 Main St], user=null)
+12:07:32.497 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Updated Trainer: Trainer(id=1, specialization=3, user=null)
+12:07:32.497 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Updated Trainee with ID: 1
+12:07:32.497 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Trainee with ID Not Found: 1)
+12:07:32.497 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Select Trainer with ID: 1)
+12:07:32.498 [main] INFO  c.e.s.s.TrainingServiceImpl - Select Training with ID: 1)
+12:29:33.938 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+12:29:34.038 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'traineeServiceImpl' defined in file [C:\Users\Pedro\Desktop\Programacion\SPRING-FRAMEWORK\SpringFrameworWorkSpace\spring-core-task\target\classes\com\epam\springcore\serviceImpl\TraineeServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 1: No qualifying bean of type 'com.epam.springcore.repository.UsersLoader' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+12:37:00.220 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+12:37:00.325 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Trainees mock data initialized
+12:37:00.326 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Trainers mock data initialized
+12:37:00.327 [main] INFO  c.e.s.s.TrainingServiceImpl - Trainers mock data initialized
+12:37:22.222 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+12:37:22.315 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'traineeServiceImpl' defined in file [C:\Users\Pedro\Desktop\Programacion\SPRING-FRAMEWORK\SpringFrameworWorkSpace\spring-core-task\target\classes\com\epam\springcore\serviceImpl\TraineeServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 1: No qualifying bean of type 'com.epam.springcore.repository.UsersLoader' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+12:38:25.563 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+12:38:25.663 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'traineeServiceImpl' defined in file [C:\Users\Pedro\Desktop\Programacion\SPRING-FRAMEWORK\SpringFrameworWorkSpace\spring-core-task\target\classes\com\epam\springcore\serviceImpl\TraineeServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 1: No qualifying bean of type 'com.epam.springcore.repository.UsersLoader' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+13:55:30.546 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+13:55:30.666 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'traineeServiceImpl' defined in file [C:\Users\Pedro\Desktop\Programacion\SPRING-FRAMEWORK\SpringFrameworWorkSpace\spring-core-task\target\classes\com\epam\springcore\serviceImpl\TraineeServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 1: No qualifying bean of type 'com.epam.springcore.repository.UsersLoader' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+13:56:04.789 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+13:56:04.886 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Trainees mock data initialized
+13:56:04.887 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Trainers mock data initialized
+13:56:04.888 [main] INFO  c.e.s.s.TrainingServiceImpl - Trainers mock data initialized
+13:58:22.137 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+13:58:22.213 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'traineeServiceImpl' defined in file [C:\Users\Pedro\Desktop\Programacion\SPRING-FRAMEWORK\SpringFrameworWorkSpace\spring-core-task\target\classes\com\epam\springcore\serviceImpl\TraineeServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.epam.springcore.repository.UsersLoader' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+14:04:06.495 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+14:04:06.584 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Trainees mock data initialized
+14:04:06.585 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Trainers mock data initialized
+14:04:06.586 [main] INFO  c.e.s.s.TrainingServiceImpl - Trainers mock data initialized
+14:04:39.986 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+14:04:40.076 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Trainees mock data initialized
+14:04:40.077 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Trainers mock data initialized
+14:04:40.078 [main] INFO  c.e.s.s.TrainingServiceImpl - Trainers mock data initialized
+14:05:48.396 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+14:05:48.484 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Trainees mock data initialized
+14:05:48.486 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Trainers mock data initialized
+14:05:48.487 [main] INFO  c.e.s.s.TrainingServiceImpl - Trainers mock data initialized
+14:05:48.499 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=1, dateOfBirth=Optional[Fri Nov 03 14:05:48 COT 2023], address=Optional[123 Main St], user=User(id=1, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=7uqyrEd99y, isActive=true))
+14:05:48.514 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Created Trainer: Trainer(id=1, specialization=2, user=null)
+14:05:48.514 [main] INFO  c.e.s.s.TrainingServiceImpl - Created Trainer: Training(id=1, traineeID=1, trainerID=1, trainingName=Spring Boot Training, trainingTypeID=1, trainingDate=Fri Nov 03 14:05:48 COT 2023, trainingDuration=3.5)
+14:06:22.043 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+14:06:22.140 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Trainees mock data initialized
+14:06:22.141 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Trainers mock data initialized
+14:06:22.142 [main] INFO  c.e.s.s.TrainingServiceImpl - Trainers mock data initialized
+14:06:22.171 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=1, dateOfBirth=Optional[Fri Nov 03 14:06:22 COT 2023], address=Optional[123 Main St], user=User(id=1, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=ZILXUWahjD, isActive=true))
+14:06:22.173 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Created Trainer: Trainer(id=1, specialization=2, user=null)
+14:06:22.173 [main] INFO  c.e.s.s.TrainingServiceImpl - Created Trainer: Training(id=1, traineeID=1, trainerID=1, trainingName=Spring Boot Training, trainingTypeID=1, trainingDate=Fri Nov 03 14:06:22 COT 2023, trainingDuration=3.5)
+14:10:33.394 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+14:10:33.481 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Trainees mock data initialized
+14:10:33.483 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Trainers mock data initialized
+14:10:33.484 [main] INFO  c.e.s.s.TrainingServiceImpl - Trainers mock data initialized
+14:10:33.517 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=1, dateOfBirth=Optional[Fri Nov 03 14:10:33 COT 2023], address=Optional[123 Main St], user=User(id=1, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=QgV7M8yaKG, isActive=true))
+14:10:33.519 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Created Trainer: Trainer(id=1, specialization=2, user=null)
+14:10:33.519 [main] INFO  c.e.s.s.TrainingServiceImpl - Created Trainer: Training(id=1, traineeID=1, trainerID=1, trainingName=Spring Boot Training, trainingTypeID=1, trainingDate=Fri Nov 03 14:10:33 COT 2023, trainingDuration=3.5)
+14:19:58.348 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+14:19:58.441 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Trainees mock data initialized
+14:19:58.442 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Trainers mock data initialized
+14:19:58.444 [main] INFO  c.e.s.s.TrainingServiceImpl - Trainers mock data initialized
+14:19:58.460 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=1, dateOfBirth=Optional[Fri Nov 03 14:19:58 COT 2023], address=Optional[123 Main St], user=User(id=1, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=uqeOgNij0Y, isActive=true))
+14:20:09.370 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+14:20:09.461 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Trainees mock data initialized
+14:20:09.463 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Trainers mock data initialized
+14:20:09.464 [main] INFO  c.e.s.s.TrainingServiceImpl - Trainers mock data initialized
+14:20:09.478 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=1, dateOfBirth=Optional[Fri Nov 03 14:20:09 COT 2023], address=Optional[123 Main St], user=User(id=1, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=AFsllAINbG, isActive=true))
+14:20:39.453 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+14:20:39.541 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Trainees mock data initialized
+14:20:39.542 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Trainers mock data initialized
+14:20:39.543 [main] INFO  c.e.s.s.TrainingServiceImpl - Trainers mock data initialized
+14:20:39.557 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=1, dateOfBirth=Optional[Fri Nov 03 14:20:39 COT 2023], address=Optional[123 Main St], user=User(id=1, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=E3AX8by6Ka, isActive=true))
+14:20:39.577 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=1, dateOfBirth=Optional[Fri Nov 03 14:20:39 COT 2023], address=Optional[123 Main St], user=User(id=1, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=MGFaZg8sp4, isActive=true))
+14:20:54.393 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+14:20:54.482 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Trainees mock data initialized
+14:20:54.484 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Trainers mock data initialized
+14:20:54.485 [main] INFO  c.e.s.s.TrainingServiceImpl - Trainers mock data initialized
+14:20:54.498 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=1, dateOfBirth=Optional[Fri Nov 03 14:20:54 COT 2023], address=Optional[123 Main St], user=User(id=1, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=K8X46xlQ5F, isActive=true))
+14:20:54.513 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=1, dateOfBirth=Optional[Fri Nov 03 14:20:54 COT 2023], address=Optional[123 Main St], user=User(id=1, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=md1MZ02qOg, isActive=true))
+14:23:57.503 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+14:23:57.592 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Trainees mock data initialized
+14:23:57.594 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Trainers mock data initialized
+14:23:57.596 [main] INFO  c.e.s.s.TrainingServiceImpl - Trainers mock data initialized
+14:23:57.615 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=1, dateOfBirth=Optional[Fri Nov 03 14:23:57 COT 2023], address=Optional[123 Main St], user=User(id=1, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=xLp2IigkRo, isActive=true))
+14:23:57.632 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=1, dateOfBirth=Optional[Fri Nov 03 14:23:57 COT 2023], address=Optional[123 Main St], user=User(id=1, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=qZf77gGvjF, isActive=true))
+14:24:14.582 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+14:24:14.691 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Trainees mock data initialized
+14:24:14.693 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Trainers mock data initialized
+14:24:14.695 [main] INFO  c.e.s.s.TrainingServiceImpl - Trainers mock data initialized
+14:24:14.711 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=1, dateOfBirth=Optional[Fri Nov 03 14:24:14 COT 2023], address=Optional[123 Main St], user=User(id=1, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=q57wj4tw1o, isActive=true))
+14:24:14.732 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=2, dateOfBirth=Optional[Fri Nov 03 14:24:14 COT 2023], address=Optional[123 Main St], user=User(id=2, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=4e7lZMNnb9, isActive=true))
+14:25:31.292 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+14:25:31.388 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Trainees mock data initialized
+14:25:31.390 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Trainers mock data initialized
+14:25:31.392 [main] INFO  c.e.s.s.TrainingServiceImpl - Trainers mock data initialized
+14:25:31.404 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=1, dateOfBirth=Optional[Fri Nov 03 14:25:31 COT 2023], address=Optional[123 Main St], user=User(id=1, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=TIxwSxRCJB, isActive=true))
+14:25:31.420 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=2, dateOfBirth=Optional[Fri Nov 03 14:25:31 COT 2023], address=Optional[123 Main St], user=User(id=2, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=Kz3uzF7Inj, isActive=true))
+14:25:31.420 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Select Trainee with ID: 1)
+14:25:31.420 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Select Trainee with ID: 2)
+14:25:41.448 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+14:25:41.550 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Trainees mock data initialized
+14:25:41.551 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Trainers mock data initialized
+14:25:41.552 [main] INFO  c.e.s.s.TrainingServiceImpl - Trainers mock data initialized
+14:25:41.565 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=1, dateOfBirth=Optional[Fri Nov 03 14:25:41 COT 2023], address=Optional[123 Main St], user=User(id=1, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=o0ASEUnNDA, isActive=true))
+14:25:41.582 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=2, dateOfBirth=Optional[Fri Nov 03 14:25:41 COT 2023], address=Optional[123 Main St], user=User(id=2, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=Bk7ZtG3vUr, isActive=true))
+14:25:41.582 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Select Trainee with ID: 1)
+14:25:41.582 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Select Trainee with ID: 3)
+14:26:02.483 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+14:26:02.573 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Trainees mock data initialized
+14:26:02.575 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Trainers mock data initialized
+14:26:02.576 [main] INFO  c.e.s.s.TrainingServiceImpl - Trainers mock data initialized
+14:26:02.589 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=1, dateOfBirth=Optional[Fri Nov 03 14:26:02 COT 2023], address=Optional[123 Main St], user=User(id=1, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=gIz5rMla7o, isActive=true))
+14:26:02.607 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=2, dateOfBirth=Optional[Fri Nov 03 14:26:02 COT 2023], address=Optional[123 Main St], user=User(id=2, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=xku7LxgtFs, isActive=true))
+14:26:02.608 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Select Trainee with ID: 1)
+14:26:02.608 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Select Trainee with ID: 5)
+14:28:47.086 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+14:28:47.209 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Trainees mock data initialized
+14:28:47.210 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Trainers mock data initialized
+14:28:47.211 [main] INFO  c.e.s.s.TrainingServiceImpl - Trainers mock data initialized
+14:28:47.223 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=1, dateOfBirth=Optional[Fri Nov 03 14:28:47 COT 2023], address=Optional[123 Main St], user=User(id=1, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=tyirTZjxnj, isActive=true))
+14:28:47.225 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=2, dateOfBirth=Optional[Fri Nov 03 14:28:47 COT 2023], address=Optional[123 Main St], user=User(id=2, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=42r3tuiMHd, isActive=true))
+14:28:47.225 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Select Trainee with ID: 1)
+14:28:47.225 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Select Trainee with ID: 5)
+14:29:42.654 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+14:29:42.783 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Trainees mock data initialized
+14:29:42.785 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Trainers mock data initialized
+14:29:42.787 [main] INFO  c.e.s.s.TrainingServiceImpl - Trainers mock data initialized
+14:29:42.800 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=1, dateOfBirth=Optional[Fri Nov 03 14:29:42 COT 2023], address=Optional[123 Main St], user=User(id=1, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=729wteG6qY, isActive=true))
+14:29:42.801 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=2, dateOfBirth=Optional[Fri Nov 03 14:29:42 COT 2023], address=Optional[123 Main St], user=User(id=2, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=GOD0Sb9PVD, isActive=true))
+14:29:42.801 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Select Trainee with ID: 1)
+14:29:42.801 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Select Trainee with ID: 5)
+14:30:21.265 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+14:30:21.285 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'traineesLoader': Invocation of init method failed
+14:30:37.903 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+14:30:37.920 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'traineesLoader': Invocation of init method failed
+14:31:48.847 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+14:31:48.863 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'traineesLoader': Invocation of init method failed
+14:33:38.899 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+14:33:38.914 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'traineesLoader': Invocation of init method failed
+14:33:52.585 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+14:33:52.607 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'traineesLoader': Invocation of init method failed
+14:34:36.493 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+14:34:36.511 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'traineesLoader': Invocation of init method failed
+14:36:02.544 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+14:36:02.564 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'traineesLoader': Invocation of init method failed
+14:36:28.840 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+14:36:28.848 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'traineesLoader' defined in file [C:\Users\Pedro\Desktop\Programacion\SPRING-FRAMEWORK\SpringFrameworWorkSpace\spring-core-task\target\classes\com\epam\springcore\repository\TraineesLoader.class]: Failed to instantiate [com.epam.springcore.repository.TraineesLoader]: Constructor threw exception
+14:37:15.212 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+14:37:15.218 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'traineesLoader' defined in file [C:\Users\Pedro\Desktop\Programacion\SPRING-FRAMEWORK\SpringFrameworWorkSpace\spring-core-task\target\classes\com\epam\springcore\repository\TraineesLoader.class]: Failed to instantiate [com.epam.springcore.repository.TraineesLoader]: Constructor threw exception
+14:37:30.821 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+14:37:30.839 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'traineesLoader': Invocation of init method failed
+14:38:05.955 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+14:38:05.971 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'traineesLoader': Invocation of init method failed
+14:42:29.872 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+14:42:29.884 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'traineesLoader' defined in file [C:\Users\Pedro\Desktop\Programacion\SPRING-FRAMEWORK\SpringFrameworWorkSpace\spring-core-task\target\classes\com\epam\springcore\repository\TraineesLoader.class]: Failed to instantiate [com.epam.springcore.repository.TraineesLoader]: Constructor threw exception
+14:44:30.513 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+14:44:30.526 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'traineesLoader' defined in file [C:\Users\Pedro\Desktop\Programacion\SPRING-FRAMEWORK\SpringFrameworWorkSpace\spring-core-task\target\classes\com\epam\springcore\repository\TraineesLoader.class]: Failed to instantiate [com.epam.springcore.repository.TraineesLoader]: Constructor threw exception
+14:45:51.857 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+14:45:51.885 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'traineesLoader': Unsatisfied dependency expressed through method 'setUsersLoader' parameter 0: Error creating bean with name 'usersLoader' defined in file [C:\Users\Pedro\Desktop\Programacion\SPRING-FRAMEWORK\SpringFrameworWorkSpace\spring-core-task\target\classes\com\epam\springcore\repository\UsersLoader.class]: Failed to instantiate [com.epam.springcore.repository.UsersLoader]: Constructor threw exception
+14:46:41.248 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+14:46:41.278 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'traineesLoader': Invocation of init method failed
+14:48:54.143 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+14:48:54.265 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Trainees mock data initialized
+14:48:54.266 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Trainers mock data initialized
+14:48:54.267 [main] INFO  c.e.s.s.TrainingServiceImpl - Trainers mock data initialized
+14:48:54.279 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=1, dateOfBirth=Optional[Fri Nov 03 14:48:54 COT 2023], address=Optional[123 Main St], user=User(id=1, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=tjxaXBPj9D, isActive=true))
+14:48:54.296 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=2, dateOfBirth=Optional[Fri Nov 03 14:48:54 COT 2023], address=Optional[123 Main St], user=User(id=2, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=OTzweb4vm8, isActive=true))
+14:48:54.296 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Select Trainee with ID: 1)
+14:48:54.296 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Select Trainee with ID: 5)
+14:52:47.170 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+14:52:47.277 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Trainees mock data initialized
+14:52:47.278 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Trainers mock data initialized
+14:52:47.279 [main] INFO  c.e.s.s.TrainingServiceImpl - Trainers mock data initialized
+14:52:47.292 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=1, dateOfBirth=Optional[Fri Nov 03 14:52:47 COT 2023], address=Optional[123 Main St], user=User(id=1, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=yLAA9npyan, isActive=true))
+14:52:47.307 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=2, dateOfBirth=Optional[Fri Nov 03 14:52:47 COT 2023], address=Optional[123 Main St], user=User(id=2, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=y1VWo5LzA5, isActive=true))
+14:52:47.307 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Select Trainee with ID: 1)
+14:52:47.307 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Select Trainee with ID: 5)
+14:53:24.583 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+14:53:24.615 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'traineesLoader': Invocation of init method failed
+14:54:04.495 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+14:54:04.869 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Trainees mock data initialized
+14:54:04.871 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Trainers mock data initialized
+14:54:04.873 [main] INFO  c.e.s.s.TrainingServiceImpl - Trainers mock data initialized
+14:54:04.890 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=1, dateOfBirth=Optional[Fri Nov 03 14:54:04 COT 2023], address=Optional[123 Main St], user=User(id=1, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=FHUq7E138e, isActive=true))
+14:54:04.907 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=2, dateOfBirth=Optional[Fri Nov 03 14:54:04 COT 2023], address=Optional[123 Main St], user=User(id=2, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=SOBP8rSocM, isActive=true))
+14:54:04.907 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Select Trainee with ID: 1)
+14:54:04.907 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Select Trainee with ID: 5)
+14:54:34.974 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+14:54:35.005 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'traineesLoader': Invocation of init method failed
+14:54:55.962 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+14:54:56.000 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'traineesLoader': Invocation of init method failed
+14:55:42.563 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+14:55:42.591 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'traineesLoader': Invocation of init method failed
+14:55:54.665 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+14:55:54.698 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'traineesLoader': Invocation of init method failed
+14:56:54.406 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+14:56:54.438 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'traineesLoader': Invocation of init method failed
+14:57:39.239 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+14:57:39.247 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'traineesLoader' defined in file [C:\Users\Pedro\Desktop\Programacion\SPRING-FRAMEWORK\SpringFrameworWorkSpace\spring-core-task\target\classes\com\epam\springcore\repository\TraineesLoader.class]: Failed to instantiate [com.epam.springcore.repository.TraineesLoader]: Constructor threw exception
+14:59:44.040 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+14:59:44.066 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'traineesLoader': Invocation of init method failed
+15:04:48.978 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+15:04:49.008 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'traineesLoader': Unsatisfied dependency expressed through method 'setUsersLoader' parameter 0: Error creating bean with name 'usersLoader' defined in file [C:\Users\Pedro\Desktop\Programacion\SPRING-FRAMEWORK\SpringFrameworWorkSpace\spring-core-task\target\classes\com\epam\springcore\repository\UsersLoader.class]: Failed to instantiate [com.epam.springcore.repository.UsersLoader]: Constructor threw exception
+15:06:22.273 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+15:06:22.311 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'traineesLoader': Unsatisfied dependency expressed through method 'setUsersLoader' parameter 0: Error creating bean with name 'usersLoader' defined in file [C:\Users\Pedro\Desktop\Programacion\SPRING-FRAMEWORK\SpringFrameworWorkSpace\spring-core-task\target\classes\com\epam\springcore\repository\UsersLoader.class]: Failed to instantiate [com.epam.springcore.repository.UsersLoader]: Constructor threw exception
+15:07:42.650 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+15:07:42.683 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'traineesLoader': Invocation of init method failed
+15:08:40.394 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+15:08:40.516 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Trainees mock data initialized
+15:08:40.518 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Trainers mock data initialized
+15:08:40.520 [main] INFO  c.e.s.s.TrainingServiceImpl - Trainers mock data initialized
+15:08:40.532 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=1, dateOfBirth=Optional[Fri Nov 03 15:08:40 COT 2023], address=Optional[123 Main St], user=User(id=1, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=GPqcJpJT7m, isActive=true))
+15:08:40.549 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=2, dateOfBirth=Optional[Fri Nov 03 15:08:40 COT 2023], address=Optional[123 Main St], user=User(id=2, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=n4TTdfkfBY, isActive=true))
+15:08:40.549 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Select Trainee with ID: 1)
+15:08:40.549 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Select Trainee with ID: 5)
+15:09:02.442 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+15:09:02.478 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'traineesLoader': Invocation of init method failed
+15:09:21.921 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+15:09:22.038 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Trainees mock data initialized
+15:09:22.040 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Trainers mock data initialized
+15:09:22.042 [main] INFO  c.e.s.s.TrainingServiceImpl - Trainers mock data initialized
+15:09:22.053 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=1, dateOfBirth=Optional[Fri Nov 03 15:09:22 COT 2023], address=Optional[123 Main St], user=User(id=1, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=9V0FMlEMFb, isActive=true))
+15:09:22.069 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=2, dateOfBirth=Optional[Fri Nov 03 15:09:22 COT 2023], address=Optional[123 Main St], user=User(id=2, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=YRRsTuNwgs, isActive=true))
+15:09:22.069 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Select Trainee with ID: 1)
+15:09:22.069 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Select Trainee with ID: 5)
+15:09:41.395 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+15:09:41.427 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'traineesLoader': Invocation of init method failed
+15:10:10.327 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+15:10:10.363 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'traineesLoader': Invocation of init method failed
+15:10:39.751 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+15:10:39.862 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Trainees mock data initialized
+15:10:39.863 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Trainers mock data initialized
+15:10:39.865 [main] INFO  c.e.s.s.TrainingServiceImpl - Trainers mock data initialized
+15:10:39.878 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=1, dateOfBirth=Optional[Fri Nov 03 15:10:39 COT 2023], address=Optional[123 Main St], user=User(id=1, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=vlHyKYce8h, isActive=true))
+15:10:39.896 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=2, dateOfBirth=Optional[Fri Nov 03 15:10:39 COT 2023], address=Optional[123 Main St], user=User(id=2, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=AV7ElsRhHB, isActive=true))
+15:10:39.896 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Select Trainee with ID: 1)
+15:10:39.896 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Select Trainee with ID: 5)
+15:10:49.900 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+15:10:50.022 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Trainees mock data initialized
+15:10:50.024 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Trainers mock data initialized
+15:10:50.025 [main] INFO  c.e.s.s.TrainingServiceImpl - Trainers mock data initialized
+15:10:50.041 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=1, dateOfBirth=Optional[Fri Nov 03 15:10:50 COT 2023], address=Optional[123 Main St], user=User(id=1, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=meSfldpkvA, isActive=true))
+15:10:50.059 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=2, dateOfBirth=Optional[Fri Nov 03 15:10:50 COT 2023], address=Optional[123 Main St], user=User(id=2, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=S5IX1unSj4, isActive=true))
+15:10:50.059 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Select Trainee with ID: 1)
+15:10:50.059 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Select Trainee with ID: 5)
+15:11:43.668 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+15:11:43.778 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Trainees mock data initialized
+15:11:43.779 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Trainers mock data initialized
+15:11:43.781 [main] INFO  c.e.s.s.TrainingServiceImpl - Trainers mock data initialized
+15:11:43.793 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=1, dateOfBirth=Optional[Fri Nov 03 15:11:43 COT 2023], address=Optional[123 Main St], user=User(id=1, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=JCU58kbHn9, isActive=true))
+15:11:43.810 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=2, dateOfBirth=Optional[Fri Nov 03 15:11:43 COT 2023], address=Optional[123 Main St], user=User(id=2, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=mhz3cvsezS, isActive=true))
+15:11:43.810 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Select Trainee with ID: 1)
+15:11:43.810 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Select Trainee with ID: 5)
+15:12:05.961 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+15:12:06.313 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Trainees mock data initialized
+15:12:06.314 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Trainers mock data initialized
+15:12:06.316 [main] INFO  c.e.s.s.TrainingServiceImpl - Trainers mock data initialized
+15:12:06.329 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=1, dateOfBirth=Optional[Fri Nov 03 15:12:06 COT 2023], address=Optional[123 Main St], user=User(id=1, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=M284HuwlUX, isActive=true))
+15:12:06.353 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=2, dateOfBirth=Optional[Fri Nov 03 15:12:06 COT 2023], address=Optional[123 Main St], user=User(id=2, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=zaUNvk0xvN, isActive=true))
+15:12:06.354 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Select Trainee with ID: 1)
+15:12:06.354 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Select Trainee with ID: 5)
+15:12:55.058 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+15:12:55.475 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Trainees mock data initialized
+15:12:55.477 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Trainers mock data initialized
+15:12:55.479 [main] INFO  c.e.s.s.TrainingServiceImpl - Trainers mock data initialized
+15:12:55.495 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=1, dateOfBirth=Optional[Fri Nov 03 15:12:55 COT 2023], address=Optional[123 Main St], user=User(id=1, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=aKKGvh1NV7, isActive=true))
+15:12:55.515 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=2, dateOfBirth=Optional[Fri Nov 03 15:12:55 COT 2023], address=Optional[123 Main St], user=User(id=2, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=uS1Kj9sR87, isActive=true))
+15:12:55.515 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Select Trainee with ID: 1)
+15:12:55.515 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Select Trainee with ID: 5)
+15:13:23.581 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+15:13:23.610 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'traineesLoader': Invocation of init method failed
+15:13:34.582 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+15:13:34.694 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Trainees mock data initialized
+15:13:34.695 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Trainers mock data initialized
+15:13:34.697 [main] INFO  c.e.s.s.TrainingServiceImpl - Trainers mock data initialized
+15:13:34.709 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=1, dateOfBirth=Optional[Fri Nov 03 15:13:34 COT 2023], address=Optional[123 Main St], user=User(id=1, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=BpuVXg1EmW, isActive=true))
+15:13:34.728 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=2, dateOfBirth=Optional[Fri Nov 03 15:13:34 COT 2023], address=Optional[123 Main St], user=User(id=2, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=k1eWtMS5JU, isActive=true))
+15:13:34.728 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Select Trainee with ID: 1)
+15:13:34.728 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Select Trainee with ID: 5)
+15:13:49.476 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+15:13:49.582 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Trainees mock data initialized
+15:13:49.583 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Trainers mock data initialized
+15:13:49.585 [main] INFO  c.e.s.s.TrainingServiceImpl - Trainers mock data initialized
+15:13:49.598 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=1, dateOfBirth=Optional[Fri Nov 03 15:13:49 COT 2023], address=Optional[123 Main St], user=User(id=1, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=KOSHgTXXo2, isActive=true))
+15:13:49.617 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=2, dateOfBirth=Optional[Fri Nov 03 15:13:49 COT 2023], address=Optional[123 Main St], user=User(id=2, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=fjlY5cACko, isActive=true))
+15:13:49.617 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Select Trainee with ID: 1)
+15:13:49.617 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Select Trainee with ID: 5)
+15:14:48.421 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+15:14:48.453 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'traineesLoader': Invocation of init method failed
+15:15:36.079 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+15:15:36.112 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'traineesLoader': Invocation of init method failed
+15:16:05.638 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+15:16:05.755 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Trainees mock data initialized
+15:16:05.757 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Trainers mock data initialized
+15:16:05.758 [main] INFO  c.e.s.s.TrainingServiceImpl - Trainers mock data initialized
+15:16:05.769 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=1, dateOfBirth=Optional[Fri Nov 03 15:16:05 COT 2023], address=Optional[123 Main St], user=User(id=1, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=O8tsN2D8C6, isActive=true))
+15:16:05.786 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=2, dateOfBirth=Optional[Fri Nov 03 15:16:05 COT 2023], address=Optional[123 Main St], user=User(id=2, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=q3nF0D6ZCF, isActive=true))
+15:17:22.269 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+15:17:22.379 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Trainees mock data initialized
+15:17:22.380 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Trainers mock data initialized
+15:17:22.381 [main] INFO  c.e.s.s.TrainingServiceImpl - Trainers mock data initialized
+15:17:22.393 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=1, dateOfBirth=Optional[Fri Nov 03 15:17:22 COT 2023], address=Optional[123 Main St], user=User(id=1, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=sUyUmBZmYs, isActive=true))
+15:17:22.414 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=2, dateOfBirth=Optional[Fri Nov 03 15:17:22 COT 2023], address=Optional[123 Main St], user=User(id=2, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=AlyllWhs1B, isActive=true))
+15:17:58.501 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+15:17:58.616 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Trainees mock data initialized
+15:17:58.618 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Trainers mock data initialized
+15:17:58.619 [main] INFO  c.e.s.s.TrainingServiceImpl - Trainers mock data initialized
+15:17:58.632 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=1, dateOfBirth=Optional[Fri Nov 03 15:17:58 COT 2023], address=Optional[123 Main St], user=User(id=1, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=l9O8p2gX2L, isActive=true))
+15:17:58.655 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=2, dateOfBirth=Optional[Fri Nov 03 15:17:58 COT 2023], address=Optional[123 Main St], user=User(id=2, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=nh4swP7riX, isActive=true))
+15:18:10.453 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+15:18:10.566 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Trainees mock data initialized
+15:18:10.568 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Trainers mock data initialized
+15:18:10.569 [main] INFO  c.e.s.s.TrainingServiceImpl - Trainers mock data initialized
+15:18:10.581 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=1, dateOfBirth=Optional[Fri Nov 03 15:18:10 COT 2023], address=Optional[123 Main St], user=User(id=1, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=4ehwTRIzQ6, isActive=true))
+15:18:10.595 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=2, dateOfBirth=Optional[Fri Nov 03 15:18:10 COT 2023], address=Optional[123 Main St], user=User(id=2, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=SYaKvjivVx, isActive=true))
+15:18:21.868 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+15:18:21.987 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Trainees mock data initialized
+15:18:21.989 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Trainers mock data initialized
+15:18:21.991 [main] INFO  c.e.s.s.TrainingServiceImpl - Trainers mock data initialized
+15:18:22.002 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=1, dateOfBirth=Optional[Fri Nov 03 15:18:21 COT 2023], address=Optional[123 Main St], user=User(id=1, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=J6G9BMcX79, isActive=true))
+15:18:22.019 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=2, dateOfBirth=Optional[Fri Nov 03 15:18:21 COT 2023], address=Optional[123 Main St], user=User(id=2, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=tVqZWnnPQF, isActive=true))
+15:20:47.680 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+15:20:48.016 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Trainees mock data initialized
+15:20:48.018 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Trainers mock data initialized
+15:20:48.019 [main] INFO  c.e.s.s.TrainingServiceImpl - Trainers mock data initialized
+15:20:48.037 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=1, dateOfBirth=Optional[Fri Nov 03 15:20:48 COT 2023], address=Optional[123 Main St], user=User(id=1, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=CI8wUcgXGM, isActive=true))
+15:20:48.061 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=2, dateOfBirth=Optional[Fri Nov 03 15:20:48 COT 2023], address=Optional[123 Main St], user=User(id=2, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=cbYGfDxvo9, isActive=true))
+15:23:00.685 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+15:23:00.807 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Trainees mock data initialized
+15:23:00.808 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Trainers mock data initialized
+15:23:00.810 [main] INFO  c.e.s.s.TrainingServiceImpl - Trainers mock data initialized
+15:23:00.823 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=1, dateOfBirth=Optional[Fri Nov 03 15:23:00 COT 2023], address=Optional[123 Main St], user=User(id=1, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=A7lMd30wNU, isActive=true))
+15:23:00.839 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=2, dateOfBirth=Optional[Fri Nov 03 15:23:00 COT 2023], address=Optional[123 Main St], user=User(id=2, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=K9XzO3EGLD, isActive=true))
+15:25:07.793 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+15:25:07.823 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'traineesLoader': Invocation of init method failed
+15:25:09.198 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+15:25:09.232 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'traineesLoader': Invocation of init method failed
+15:25:37.829 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+15:25:37.864 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'traineesLoader': Invocation of init method failed
+15:25:48.888 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+15:25:48.919 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'traineesLoader': Invocation of init method failed
+15:26:46.272 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+15:26:46.387 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Trainees mock data initialized
+15:26:46.388 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Trainers mock data initialized
+15:26:46.389 [main] INFO  c.e.s.s.TrainingServiceImpl - Trainers mock data initialized
+15:26:46.400 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=1, dateOfBirth=Optional[Fri Nov 03 15:26:46 COT 2023], address=Optional[123 Main St], user=User(id=1, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=2QT4myrzVj, isActive=true))
+15:26:46.417 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=2, dateOfBirth=Optional[Fri Nov 03 15:26:46 COT 2023], address=Optional[123 Main St], user=User(id=2, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=UOJ491Y2iE, isActive=true))
+15:26:52.641 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+15:26:52.668 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'traineesLoader': Invocation of init method failed
+15:27:06.328 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+15:27:06.620 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Trainees mock data initialized
+15:27:06.621 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Trainers mock data initialized
+15:27:06.622 [main] INFO  c.e.s.s.TrainingServiceImpl - Trainers mock data initialized
+15:27:06.632 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=1, dateOfBirth=Optional[Fri Nov 03 15:27:06 COT 2023], address=Optional[123 Main St], user=User(id=1, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=uak5tQ0mIn, isActive=true))
+15:27:06.647 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=2, dateOfBirth=Optional[Fri Nov 03 15:27:06 COT 2023], address=Optional[123 Main St], user=User(id=2, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=KxzaBQNu82, isActive=true))
+15:29:31.549 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+15:29:31.972 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Trainees mock data initialized
+15:29:31.974 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Trainers mock data initialized
+15:29:31.976 [main] INFO  c.e.s.s.TrainingServiceImpl - Trainers mock data initialized
+15:29:31.988 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=1, dateOfBirth=Optional[Fri Nov 03 15:29:31 COT 2023], address=Optional[123 Main St], user=User(id=1, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=y0JwGahO1p, isActive=true))
+15:29:32.005 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=2, dateOfBirth=Optional[Fri Nov 03 15:29:31 COT 2023], address=Optional[123 Main St], user=User(id=2, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=HgDZVpYiGx, isActive=true))
+15:29:42.367 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+15:29:42.481 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Trainees mock data initialized
+15:29:42.483 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Trainers mock data initialized
+15:29:42.485 [main] INFO  c.e.s.s.TrainingServiceImpl - Trainers mock data initialized
+15:29:42.500 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=1, dateOfBirth=Optional[Fri Nov 03 15:29:42 COT 2023], address=Optional[123 Main St], user=User(id=1, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=f6hbjZouyx, isActive=true))
+15:29:42.527 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=2, dateOfBirth=Optional[Fri Nov 03 15:29:42 COT 2023], address=Optional[123 Main St], user=User(id=2, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=vW4oHqiuGv, isActive=true))
+15:30:01.985 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+15:30:02.085 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Trainees mock data initialized
+15:30:02.086 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Trainers mock data initialized
+15:30:02.088 [main] INFO  c.e.s.s.TrainingServiceImpl - Trainers mock data initialized
+15:30:02.100 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=1, dateOfBirth=Optional[Fri Nov 03 15:30:02 COT 2023], address=Optional[123 Main St], user=User(id=1, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=zCHxBg6eVT, isActive=true))
+15:30:02.116 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=2, dateOfBirth=Optional[Fri Nov 03 15:30:02 COT 2023], address=Optional[123 Main St], user=User(id=2, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=GdKhXTSl9a, isActive=true))
+15:30:21.981 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+15:30:22.071 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Trainees mock data initialized
+15:30:22.073 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Trainers mock data initialized
+15:30:22.074 [main] INFO  c.e.s.s.TrainingServiceImpl - Trainers mock data initialized
+15:30:22.086 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=1, dateOfBirth=Optional[Fri Nov 03 15:30:22 COT 2023], address=Optional[123 Main St], user=User(id=1, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=bx2nCSZeU9, isActive=true))
+15:30:22.101 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=2, dateOfBirth=Optional[Fri Nov 03 15:30:22 COT 2023], address=Optional[123 Main St], user=User(id=2, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=YZ2xf2SP7X, isActive=true))
+15:30:22.101 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Select Trainee with ID: 1)
+15:30:22.101 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Select Trainee with ID: 5)
+15:31:10.978 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+15:31:11.069 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Trainees mock data initialized
+15:31:11.071 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Trainers mock data initialized
+15:31:11.072 [main] INFO  c.e.s.s.TrainingServiceImpl - Trainers mock data initialized
+15:31:11.084 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=501, dateOfBirth=Optional[Fri Nov 03 15:31:11 COT 2023], address=Optional[123 Main St], user=User(id=501, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=5huJzWonuy, isActive=true))
+15:31:11.103 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=502, dateOfBirth=Optional[Fri Nov 03 15:31:11 COT 2023], address=Optional[123 Main St], user=User(id=502, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=L9Iy8i72eB, isActive=true))
+15:31:11.104 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Select Trainee with ID: 1)
+15:31:11.104 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Select Trainee with ID: 2)
+15:31:18.969 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+15:31:19.069 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Trainees mock data initialized
+15:31:19.071 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Trainers mock data initialized
+15:31:19.072 [main] INFO  c.e.s.s.TrainingServiceImpl - Trainers mock data initialized
+15:31:19.084 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=501, dateOfBirth=Optional[Fri Nov 03 15:31:19 COT 2023], address=Optional[123 Main St], user=User(id=501, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=vNZ9i2gDJ4, isActive=true))
+15:31:19.106 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=502, dateOfBirth=Optional[Fri Nov 03 15:31:19 COT 2023], address=Optional[123 Main St], user=User(id=502, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=0Hu6HYCEpZ, isActive=true))
+15:31:19.106 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Select Trainee with ID: 501)
+15:31:19.106 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Select Trainee with ID: 502)
+15:32:07.317 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+15:32:07.411 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Trainees mock data initialized
+15:32:07.414 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Trainers mock data initialized
+15:32:07.415 [main] INFO  c.e.s.s.TrainingServiceImpl - Trainers mock data initialized
+15:32:07.427 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=501, dateOfBirth=Optional[Fri Nov 03 15:32:07 COT 2023], address=Optional[123 Main St], user=User(id=501, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=oMDmGXFsYO, isActive=true))
+15:32:07.449 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=502, dateOfBirth=Optional[Fri Nov 03 15:32:07 COT 2023], address=Optional[123 Main St], user=User(id=502, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=zNLIhsH9YX, isActive=true))
+15:32:07.449 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Select Trainee with ID: 501)
+15:32:07.450 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Select Trainee with ID: 502)
+15:34:22.098 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+15:34:22.204 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Trainees mock data initialized
+15:34:22.205 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Trainers mock data initialized
+15:34:22.207 [main] INFO  c.e.s.s.TrainingServiceImpl - Trainers mock data initialized
+15:34:22.222 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=501, dateOfBirth=Optional[Fri Nov 03 15:34:22 COT 2023], address=Optional[123 Main St], user=User(id=501, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=IDHJK8bECb, isActive=true))
+15:34:22.241 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Select Trainee with ID: 501)
+15:34:22.241 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Trainee with ID Not Found: 502)
+15:34:50.639 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+15:34:50.732 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Trainees mock data initialized
+15:34:50.734 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Trainers mock data initialized
+15:34:50.735 [main] INFO  c.e.s.s.TrainingServiceImpl - Trainers mock data initialized
+15:34:50.751 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=501, dateOfBirth=Optional[Fri Nov 03 15:34:50 COT 2023], address=Optional[123 Main St], user=User(id=501, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=I1cgImF8Mf, isActive=true))
+15:34:50.769 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Select Trainee with ID: 501)
+15:35:43.801 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+15:35:43.901 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Trainees mock data initialized
+15:35:43.902 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Trainers mock data initialized
+15:35:43.904 [main] INFO  c.e.s.s.TrainingServiceImpl - Trainers mock data initialized
+15:35:43.916 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=501, dateOfBirth=Optional[Fri Nov 03 15:35:43 COT 2023], address=Optional[123 Main St], user=User(id=501, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=jmvxiPZzfc, isActive=true))
+15:35:43.930 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Select Trainee with ID: 501)
+15:36:15.695 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+15:36:15.793 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Trainees mock data initialized
+15:36:15.795 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Trainers mock data initialized
+15:36:15.797 [main] INFO  c.e.s.s.TrainingServiceImpl - Trainers mock data initialized
+15:36:15.812 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=501, dateOfBirth=Optional[Fri Nov 03 15:36:15 COT 2023], address=Optional[123 Main St], user=User(id=501, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=1In7Q7vpVf, isActive=true))
+15:36:15.833 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Select Trainee with ID: 501)
+15:36:40.219 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+15:36:40.328 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Trainees mock data initialized
+15:36:40.329 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Trainers mock data initialized
+15:36:40.331 [main] INFO  c.e.s.s.TrainingServiceImpl - Trainers mock data initialized
+15:36:40.343 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=501, dateOfBirth=Optional[Fri Nov 03 15:36:40 COT 2023], address=Optional[123 Main St], user=User(id=501, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=IsL76RlECY, isActive=true))
+15:36:40.361 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Select Trainee with ID: 501)
+15:39:04.166 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+15:39:04.258 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Trainees mock data initialized
+15:39:04.259 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Trainers mock data initialized
+15:39:04.260 [main] INFO  c.e.s.s.TrainingServiceImpl - Trainers mock data initialized
+15:39:04.272 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=501, dateOfBirth=Optional[Fri Nov 03 15:39:04 COT 2023], address=Optional[123 Main St], user=User(id=501, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=PhrOEj7Vnf, isActive=true))
+15:39:04.292 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Select Trainee with ID: 501)
+15:39:19.634 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+15:39:19.745 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Trainees mock data initialized
+15:39:19.747 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Trainers mock data initialized
+15:39:19.749 [main] INFO  c.e.s.s.TrainingServiceImpl - Trainers mock data initialized
+15:39:19.764 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=501, dateOfBirth=Optional[Fri Nov 03 15:39:19 COT 2023], address=Optional[123 Main St], user=User(id=501, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=kVyGCUEieI, isActive=true))
+15:39:19.788 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Select Trainee with ID: 501)
+15:39:51.774 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+15:39:51.857 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Trainees mock data initialized
+15:39:51.860 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Trainers mock data initialized
+15:39:51.862 [main] INFO  c.e.s.s.TrainingServiceImpl - Trainers mock data initialized
+15:39:51.877 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=501, dateOfBirth=Optional[Fri Nov 03 15:39:51 COT 2023], address=Optional[123 Main St], user=User(id=501, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=OfQETuctOL, isActive=true))
+15:39:51.896 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=502, dateOfBirth=Optional[Fri Nov 03 15:39:51 COT 2023], address=Optional[123 Main St], user=User(id=502, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=z2d44K7IBG, isActive=true))
+15:39:51.897 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Select Trainee with ID: 501)
+15:40:04.069 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+15:40:04.159 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Trainees mock data initialized
+15:40:04.161 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Trainers mock data initialized
+15:40:04.163 [main] INFO  c.e.s.s.TrainingServiceImpl - Trainers mock data initialized
+15:40:04.178 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=501, dateOfBirth=Optional[Fri Nov 03 15:40:04 COT 2023], address=Optional[123 Main St], user=User(id=501, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=uE6A3I8S8m, isActive=true))
+15:40:04.196 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=502, dateOfBirth=Optional[Fri Nov 03 15:40:04 COT 2023], address=Optional[123 Main St], user=User(id=502, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=XTr1bT3nB5, isActive=true))
+15:40:04.196 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Select Trainee with ID: 501)
+15:40:04.196 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Select Trainee with ID: 502)
+15:40:34.006 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+15:40:34.127 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Trainees mock data initialized
+15:40:34.129 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Trainers mock data initialized
+15:40:34.130 [main] INFO  c.e.s.s.TrainingServiceImpl - Trainers mock data initialized
+15:40:34.144 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=501, dateOfBirth=Optional[Fri Nov 03 15:40:34 COT 2023], address=Optional[123 Main St], user=User(id=501, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=vBE3xdWqLX, isActive=true))
+15:40:34.165 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=502, dateOfBirth=Optional[Fri Nov 03 15:40:34 COT 2023], address=Optional[123 Main St], user=User(id=502, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=GPp4mrC3C9, isActive=true))
+15:40:34.165 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Select Trainee with ID: 501)
+15:40:34.165 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Select Trainee with ID: 502)
+14:39:40.113 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+14:39:40.218 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Trainees mock data initialized
+14:39:40.220 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Trainers mock data initialized
+14:39:40.221 [main] INFO  c.e.s.s.TrainingServiceImpl - Trainers mock data initialized
+14:39:40.234 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=501, dateOfBirth=Optional[Mon Nov 06 14:39:40 COT 2023], address=Optional[123 Main St], user=User(id=501, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=Kt7pdMrGxh, isActive=true))
+14:39:40.250 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=502, dateOfBirth=Optional[Mon Nov 06 14:39:40 COT 2023], address=Optional[123 Main St], user=User(id=502, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=sl1pNFgmLa, isActive=true))
+14:39:40.250 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Select Trainee with ID: 501)
+14:39:40.250 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Select Trainee with ID: 502)
+14:40:39.849 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+14:40:39.961 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Trainees mock data initialized
+14:40:39.963 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Trainers mock data initialized
+14:40:39.965 [main] INFO  c.e.s.s.TrainingServiceImpl - Trainers mock data initialized
+14:40:39.978 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=501, dateOfBirth=Optional[Mon Nov 06 14:40:39 COT 2023], address=Optional[123 Main St], user=User(id=501, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=qmEYTm7RNi, isActive=true))
+14:40:39.998 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=502, dateOfBirth=Optional[Mon Nov 06 14:40:39 COT 2023], address=Optional[123 Main St], user=User(id=502, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=KVKn6nSGk8, isActive=true))
+14:40:39.998 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Select Trainee with ID: 501)
+14:40:39.998 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Select Trainee with ID: 502)
+14:41:16.916 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+14:41:17.008 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Trainees mock data initialized
+14:41:17.010 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Trainers mock data initialized
+14:41:17.011 [main] INFO  c.e.s.s.TrainingServiceImpl - Trainers mock data initialized
+14:41:17.028 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=501, dateOfBirth=Optional[Mon Nov 06 14:41:17 COT 2023], address=Optional[123 Main St], user=User(id=501, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=D1DFNG4Jxi, isActive=true))
+14:41:17.050 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=502, dateOfBirth=Optional[Mon Nov 06 14:41:17 COT 2023], address=Optional[123 Main St], user=User(id=502, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=GkD3FeLREp, isActive=true))
+14:41:17.051 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Select Trainee with ID: 501)
+14:41:17.051 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Select Trainee with ID: 502)
+14:42:13.238 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+14:42:13.326 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Trainees mock data initialized
+14:42:13.327 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Trainers mock data initialized
+14:42:13.328 [main] INFO  c.e.s.s.TrainingServiceImpl - Trainers mock data initialized
+14:42:13.340 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=501, dateOfBirth=Optional[Mon Nov 06 14:42:13 COT 2023], address=Optional[123 Main St], user=User(id=501, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=c6L62zg6cX, isActive=true))
+14:42:13.359 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=502, dateOfBirth=Optional[Mon Nov 06 14:42:13 COT 2023], address=Optional[123 Main St], user=User(id=502, firstName=Pedro, lastName=Arango, userName=Pedro.Arango_1, password=VVxhaGdyg9, isActive=true))
+14:42:13.360 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Select Trainee with ID: 501)
+14:42:13.360 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Select Trainee with ID: 502)
+14:42:32.685 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+14:42:32.779 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Trainees mock data initialized
+14:42:32.781 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Trainers mock data initialized
+14:42:32.782 [main] INFO  c.e.s.s.TrainingServiceImpl - Trainers mock data initialized
+14:42:32.795 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=501, dateOfBirth=Optional[Mon Nov 06 14:42:32 COT 2023], address=Optional[123 Main St], user=User(id=501, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=VHuWKTGBFs, isActive=true))
+14:42:32.816 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=502, dateOfBirth=Optional[Mon Nov 06 14:42:32 COT 2023], address=Optional[123 Main St], user=User(id=502, firstName=Pedro, lastName=Arango, userName=Pedro.Arango_1, password=kaalpZ5Kgl, isActive=true))
+14:42:32.816 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Select Trainee with ID: 501)
+14:42:32.816 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Select Trainee with ID: 502)
+14:42:50.685 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+14:42:50.793 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Trainees mock data initialized
+14:42:50.795 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Trainers mock data initialized
+14:42:50.799 [main] INFO  c.e.s.s.TrainingServiceImpl - Trainers mock data initialized
+14:42:50.820 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=501, dateOfBirth=Optional[Mon Nov 06 14:42:50 COT 2023], address=Optional[123 Main St], user=User(id=501, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=xaDY43fRC3, isActive=true))
+14:42:50.848 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=502, dateOfBirth=Optional[Mon Nov 06 14:42:50 COT 2023], address=Optional[123 Main St], user=User(id=502, firstName=Pedro, lastName=Arango, userName=Pedro.Arango_1, password=dMCrHLcShn, isActive=true))
+14:42:50.848 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Select Trainee with ID: 501)
+14:42:50.848 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Select Trainee with ID: 502)
+14:43:25.709 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+14:43:25.801 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Trainees mock data initialized
+14:43:25.802 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Trainers mock data initialized
+14:43:25.804 [main] INFO  c.e.s.s.TrainingServiceImpl - Trainers mock data initialized
+14:43:25.815 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=501, dateOfBirth=Optional[Mon Nov 06 14:43:25 COT 2023], address=Optional[123 Main St], user=User(id=501, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=y9jJU6MsGy, isActive=true))
+14:43:25.831 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=502, dateOfBirth=Optional[Mon Nov 06 14:43:25 COT 2023], address=Optional[123 Main St], user=User(id=502, firstName=Pedro, lastName=Arango, userName=Pedro.Arango_1, password=NtBLly8zvB, isActive=true))
+14:43:25.831 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=503, dateOfBirth=Optional[Mon Nov 06 14:43:25 COT 2023], address=Optional[123 Main St], user=User(id=503, firstName=Pedro, lastName=Arango, userName=Pedro.Arango_2, password=5fqgpE8lBc, isActive=true))
+14:43:25.831 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Select Trainee with ID: 501)
+14:43:25.831 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Select Trainee with ID: 502)
+14:43:25.831 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Select Trainee with ID: 503)
+15:18:03.569 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+15:18:03.673 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Trainees mock data initialized
+15:18:03.676 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Trainers mock data initialized
+15:18:03.677 [main] INFO  c.e.s.s.TrainingServiceImpl - Trainers mock data initialized
+15:18:03.689 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=501, dateOfBirth=Optional[Mon Nov 06 15:18:03 COT 2023], address=Optional[123 Main St], user=User(id=501, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=O7F4kjlVjl, isActive=true))
+15:18:03.706 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=502, dateOfBirth=Optional[Mon Nov 06 15:18:03 COT 2023], address=Optional[123 Main St], user=User(id=502, firstName=Pedro, lastName=Arango, userName=Pedro.Arango_1, password=8V5NumGi6S, isActive=true))
+15:18:03.706 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=503, dateOfBirth=Optional[Mon Nov 06 15:18:03 COT 2023], address=Optional[123 Main St], user=User(id=503, firstName=Pedro, lastName=Arango, userName=Pedro.Arango_2, password=XlStTlLEVf, isActive=true))
+15:18:03.706 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Select Trainee with ID: 501)
+15:18:03.706 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Select Trainee with ID: 502)
+15:18:03.706 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Select Trainee with ID: 503)
+15:18:03.707 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Created Trainer: Trainer(id=501, specialization=1, user=User(id=501, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=mYvhJiO5Dl, isActive=true))
+15:18:03.707 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Created Trainer: Trainer(id=502, specialization=2, user=User(id=502, firstName=Pedro, lastName=Arango, userName=Pedro.Arango_1, password=LqhaeACXVM, isActive=true))
+15:18:03.707 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Select Trainer with ID: 501)
+15:18:03.708 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Select Trainer with ID: 502)
+15:33:08.538 [main] INFO  c.e.s.s.TrainingServiceImpl - Trainers mock data initialized
+15:33:08.543 [main] INFO  c.e.s.s.TrainingServiceImpl - Created Trainer: Training(id=1, traineeID=1, trainerID=1, trainingName=Training 1, trainingTypeID=1, trainingDate=Mon Nov 06 15:33:08 COT 2023, trainingDuration=8.0)
+15:33:08.567 [main] INFO  c.e.s.s.TrainingServiceImpl - Trainers mock data initialized
+15:33:08.568 [main] INFO  c.e.s.s.TrainingServiceImpl - Created Trainer: Training(id=1, traineeID=1, trainerID=1, trainingName=Training 1, trainingTypeID=1, trainingDate=Mon Nov 06 15:33:08 COT 2023, trainingDuration=8.0)
+15:33:08.568 [main] INFO  c.e.s.s.TrainingServiceImpl - Select Training with ID: 1)
+18:35:18.824 [main] INFO  c.epam.springcore.repository.Config - Config class is being initializeded configuring the path of app properties
+18:35:18.910 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Trainees mock data initialized
+18:35:18.912 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Trainers mock data initialized
+18:35:18.914 [main] INFO  c.e.s.s.TrainingServiceImpl - Trainers mock data initialized
+18:35:18.928 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Created Trainee: Trainee(id=1, dateOfBirth=Optional[Mon Nov 06 18:35:18 COT 2023], address=Optional[Medellin], user=User(id=1, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=UB4RTcPM0u, isActive=true))
+18:35:18.944 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Updated Trainee: Trainee(id=1, dateOfBirth=Optional[Mon Nov 06 18:35:18 COT 2023], address=Optional[Apartadó], user=User(id=1, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=UB4RTcPM0u, isActive=true))
+18:35:18.944 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Updated Trainee with ID: 2
+18:35:18.944 [main] INFO  c.e.s.serviceImpl.TraineeServiceImpl - Trainee with ID Not Found: 2)
+18:35:18.945 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Created Trainer: Trainer(id=1, specialization=1, user=User(id=1, firstName=Pedro, lastName=Arango, userName=Pedro.Arango, password=ELNkuSHdJV, isActive=true))
+18:35:18.946 [main] INFO  c.e.s.serviceImpl.TrainerServiceImpl - Select Trainer with ID: 3)
+18:35:18.946 [main] INFO  c.e.s.s.TrainingServiceImpl - Created Trainer: Training(id=1, traineeID=1, trainerID=1, trainingName=Piernas, trainingTypeID=1, trainingDate=Mon Nov 06 18:35:18 COT 2023, trainingDuration=2.5)
+18:35:18.948 [main] INFO  c.e.s.s.TrainingServiceImpl - Select Training with ID: 3)
